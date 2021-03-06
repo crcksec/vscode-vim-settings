@@ -1,0 +1,97 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Monokai",
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "blade.format.enable": true, // Laravel Blade Snippets extension
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.sneak": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.splitEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "revealInExplorer"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "after": [
+                "_"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "after": [
+                "$"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-d>": false,
+        "<C-c>": false,
+        "<C-x>": false,
+        "<C-v>": false,
+        "<C-z>": false,
+        "<C-y>": false
+    },
+}
